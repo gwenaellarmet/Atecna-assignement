@@ -75,3 +75,13 @@
   background-color: #d53416;
   color: white;
 }
+
+.breadcrum p {
+  font-size: 13px;
+  font-style: italic;
+  padding-left: 15px;
+}
+
+.breadcrum p i {
+  color: #d53416;
+}
