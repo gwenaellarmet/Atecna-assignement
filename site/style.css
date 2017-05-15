@@ -1,6 +1,6 @@
 /* Header */
 .header {
-  border-bottom: solid #f4a11e 4px;
+  border-bottom: solid #d53416 4px;
   padding-top: 5px;
 }
 
@@ -34,4 +34,44 @@
 .adress p:last-child {
   font-style: italic;
   font-weight: bold;
+}
+
+/* Navigation */
+.nav ul {
+  margin-left: 15px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #f4a11e;
+}
+
+.nav li {
+  float: left;
+  border-right: solid #d53416 1px;
+}
+
+.nav li:last-child {
+  border: none;
+}
+
+.nav li a, li a:focus {
+  -webkit-transition: background-color 500ms ease-out;
+  -moz-transition: background-color 500ms ease-out;
+  -o-transition: background-color 500ms ease-out;
+  transition: background-color 500ms ease-out;
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover, .nav li a.active {
+  -webkit-transition: background-color 500ms ease-out;
+  -moz-transition: background-color 500ms ease-out;
+  -o-transition: background-color 500ms ease-out;
+  transition: background-color 500ms ease-out;
+  text-decoration: none;
+  background-color: #d53416;
+  color: white;
 }
