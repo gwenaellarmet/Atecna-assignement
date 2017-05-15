@@ -1,0 +1,37 @@
+/* Header */
+.header {
+  border-bottom: solid #f4a11e 4px;
+  padding-top: 5px;
+}
+
+.header img {
+  padding-left: 15%;
+  height: 100px;
+}
+
+.adress {
+  width: 75%;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.adress h4 i{
+  padding-right: 5px;
+  color: #d53416;
+}
+.adress h4 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.adress p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.adress p:last-child {
+  font-style: italic;
+  font-weight: bold;
+}
