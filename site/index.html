@@ -52,8 +52,10 @@
       </ul>
     </div>
 
-    <div class="col-md-12 col-xs-12 breadcrum">
-      <p>Accueil <i class="fa fa-angle-right" aria-hidden="true"></i> Qui sommes nous ? <i class="fa fa-angle-right" aria-hidden="true"></i> Présentation</p>
+    <div class="row">
+      <div class="col-md-12 col-xs-12 breadcrum">
+        <p>Accueil <i class="fa fa-angle-right" aria-hidden="true"></i> Qui sommes nous ? <i class="fa fa-angle-right" aria-hidden="true"></i> Présentation</p>
+      </div>
     </div>
 
     <div class="content">
@@ -62,7 +64,7 @@
 
       <div class="row">
         <div class="col-md-6 col-xs-12 paragraph">
-          <h3>Lorem ipsum dolor sit amet</h3>
+          <h3 class="paragraph-title">Lorem ipsum dolor sit amet</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna. Nulla condimentum pharetra aliquet. Nulla pulvinar tortor eu tristique hendrerit. Aliquam vitae hendrerit magna. Nunc rutrum posuere est aliquam tincidunt.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna.</p>
         </div>
@@ -75,11 +77,10 @@
 
       <div class="row">
           <div class="col-md-6 col-xs-12 paragraph">
-            <h3>Lorem ipsum dolor sit amet</h3>
+            <h3 class="paragraph-title">Lorem ipsum dolor sit amet</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna. Nulla condimentum pharetra aliquet. Nulla pulvinar tortor eu tristique hendrerit. Aliquam vitae hendrerit magna. Nunc rutrum posuere est aliquam tincidunt.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna.</p>
           </div>
-
           <div class="col-md-6 col-xs-12 centered">
             <div class="main-carousel" data-flickity='{ "setGallerySize": "false", 
                                                         "imagesLoaded": "true", 
@@ -92,14 +93,53 @@
                 <div class="carousel-cell"><img src="ressources/img4.jpg"></div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 col-xs-12 separator">
+          <h3>Besoin de plus d'informations ?</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+          <h3 class="paragraph-title">Lorem ipsum dolor sit amet</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci.</p>
+
+          <form action="#" onsubmit="formValidation(); return false;">
+            <div class="row">
+              <div class="col-md-6 col-xs-12">
+                <div class="input-group">
+                  <input required type="text" class="text-input form-control" placeholder="Votre nom">
+                  <input required type="text" class="text-input form-control" placeholder="Votre prénom">
+                  <input required type="email" class="text-input form-control" placeholder="Votre adresse mail">
+                </div>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <div class="input-group">
+                  <textarea required class="form-control" rows="6" cols="70" id="comment" placeholder="Expliquer ici votre demande..."></textarea>
+                </div>
+              </div>
+              <div class="col-md-12 col-xs-12 validation">
+                <button class="btn" type="submit">Envoyer</button>
+              </div>
+            </div>
+          </form>
+
 
         </div>
       </div>
+
 
     </div>
 
 
   </body>
-
+  <script type="text/javascript">
+    function formValidation() {
+      alert("Votre requête à été envoyé");
+    }
+  </script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </html>

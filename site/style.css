@@ -103,7 +103,7 @@
   text-align: center;
 }
 
-.content .paragraph h3 {
+.paragraph-title {
   background-color: #faba23;
   border-bottom: solid #d53416 3px;
   text-align: right;
@@ -143,4 +143,34 @@
 
 .flickity-viewport {
   transition: height 0.2s;
+}
+
+/* separator */
+.separator h3 {
+  background-color: #faba23;
+  border-bottom: solid #d53416 3px;
+  padding: 15px 20px 5px 15px;
+  margin-right: 15px;
+}
+
+
+/* Form */
+
+.text-input {
+  margin: 7px;
+}
+
+textarea {
+  height: 100px;
+  width: 250%;
+}
+
+.validation {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.validation button {
+  background-color: #d53416;
+  color: black;
 }
