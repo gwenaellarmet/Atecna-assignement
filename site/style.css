@@ -76,6 +76,7 @@
   color: white;
 }
 
+/* Breadcrum */
 .breadcrum p {
   font-size: 13px;
   font-style: italic;
@@ -84,4 +85,46 @@
 
 .breadcrum p i {
   color: #d53416;
+}
+
+/* Contents */
+.content {
+  padding-left: 15px;
+}
+
+.content h1 {
+  color: #d53416; 
+  font-size: 40px; 
+  font-weight: 400; 
+  font-style: italic; 
+  line-height: 44px; 
+  margin: 0 0 12px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.content .paragraph h3 {
+  background-color: #faba23;
+  border-bottom: solid #d53416 3px;
+  text-align: right;
+  padding: 10px 20px 5px 0;
+  margin-right: 15px;
+}
+
+.content .paragraph p {
+  font-size: 19px;
+  line-height: 1.2;
+  text-align: justify;
+  margin: 15px 0;
+  margin-right: 15px;
+}
+
+.content .video {
+  text-align: center;
+}
+
+.content video {
+  padding-top: 20px;
+  width: 90%;
+  display: inline-block;
 }
