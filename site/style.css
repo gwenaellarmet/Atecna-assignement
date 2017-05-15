@@ -155,7 +155,6 @@
 
 
 /* Form */
-
 .text-input {
   margin: 7px;
 }
@@ -173,4 +172,15 @@ textarea {
 .validation button {
   background-color: #d53416;
   color: black;
+}
+
+
+.footer {
+  padding: 15px 0 0 0;
+  text-align: center;
+  border-top: solid #d53416 4px;
+  background-color: #faba23;
+  color: #d53416;
+  font-weight: bold;
+  line-height: 0.8;
 }
