@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="http://www.atecna.fr/wp-content/themes/atecna/images/min/atecna_favicon_16.gif">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <link rel="stylesheet" type="text/css" href="reset.css"> 
     <link rel="stylesheet" type="text/css" href="ressources/font-awesome-4.7.0/css/font-awesome.css"> 
@@ -65,15 +66,40 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna. Nulla condimentum pharetra aliquet. Nulla pulvinar tortor eu tristique hendrerit. Aliquam vitae hendrerit magna. Nunc rutrum posuere est aliquam tincidunt.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna.</p>
         </div>
-        <div class="col-md-6 col-xs-12 video">
+        <div class="col-md-6 col-xs-12 centered">
           <video controls>
             <source src="ressources/video.ogv" type="video/ogg">
           </video>
         </div>
       </div>
+
+      <div class="row">
+          <div class="col-md-6 col-xs-12 paragraph">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna. Nulla condimentum pharetra aliquet. Nulla pulvinar tortor eu tristique hendrerit. Aliquam vitae hendrerit magna. Nunc rutrum posuere est aliquam tincidunt.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis cursus pharetra. Donec hendrerit facilisis augue et tempor. In non cursus erat. Phasellus luctus nisi orci, vitae interdum ex semper vitae. Sed aliquet arcu dui, sit amet pretium sem mattis lacinia. Sed pharetra semper mi, vel fringilla dui rhoncus ac. Quisque lobortis interdum magna.</p>
+          </div>
+
+          <div class="col-md-6 col-xs-12 centered">
+            <div class="main-carousel" data-flickity='{ "setGallerySize": "false", 
+                                                        "imagesLoaded": "true", 
+                                                        "wrapAround": "true",
+                                                        "autoPlay": "200",
+                                                        "adaptiveHeight": true }'>
+                <div class="carousel-cell"><img src="ressources/img1.jpg"></div>
+                <div class="carousel-cell"><img src="ressources/img2.jpg"></div>
+                <div class="carousel-cell"><img src="ressources/img3.jpg"></div>
+                <div class="carousel-cell"><img src="ressources/img4.jpg"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
 
 
-
   </body>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </html>

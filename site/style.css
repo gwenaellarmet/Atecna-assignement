@@ -119,7 +119,7 @@
   margin-right: 15px;
 }
 
-.content .video {
+.content .centered {
   text-align: center;
 }
 
@@ -127,4 +127,20 @@
   padding-top: 20px;
   width: 90%;
   display: inline-block;
+}
+
+/* carousel */
+.content .main-carousel {
+  padding-top: 20px;
+  width: 90%;
+  display: inline-block;
+}
+
+
+.flickity-page-dots { 
+  bottom: 10px; 
+}
+
+.flickity-viewport {
+  transition: height 0.2s;
 }
